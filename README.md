@@ -1,4 +1,4 @@
-# [NOMBRE DEL PROYECTO]
+# STELLAR MINDS
 
 Proyecto final de la materia **Desarrollo Web Asistido con IA — ORT Uruguay**.
 
@@ -6,7 +6,7 @@ Sistema web para la gestión de un observatorio astronómico, compuesto por un c
 
 ---
 
-## 📑 Índice
+## Índice
 
 1. [Descripción general](#-descripción-general)
 2. [Demo y despliegue](#-demo-y-despliegue)
@@ -34,7 +34,7 @@ Sistema web para la gestión de un observatorio astronómico, compuesto por un c
 
 ---
 
-## 🔭 Descripción general
+## Descripción general
 
 El proyecto consiste en una aplicación web destinada a centralizar la gestión de las actividades de un observatorio astronómico.
 
@@ -49,16 +49,13 @@ El frontend no accede directamente a la base de datos. La comunicación se reali
 
 ---
 
-## 🌐 Demo y despliegue
+## Demo y despliegue
 
 | Componente | URL / ubicación |
 |---|---|
-| **Frontend MVC** | `[URL_FRONTEND]` |
-| **API REST** | `[URL_API]` |
-| **Base de datos** | `[SERVIDOR_BASE_DE_DATOS]` |
-| **Swagger** | `[URL_SWAGGER]` |
-
-> Reemplazar los valores entre `[ ]` por los datos reales antes de publicar el README.
+| **Frontend MVC** | `https://stellar-minds.somee.com/` |
+| **API REST** | `http://ObligatorioAPI.somee.com` |
+| **Base de datos** | `obligatoriodb.mssql.somee.com` |
 
 La versión desplegada utiliza la configuración correspondiente al entorno de demo/producción y permite probar la aplicación sin levantar todos los servicios localmente.
 
@@ -70,9 +67,9 @@ Si algún componente publicado no se encuentra disponible, se puede utilizar la 
 
 ---
 
-## 🧩 Funcionalidades principales
+## Funcionalidades principales
 
-### 👤 Usuarios y roles
+### Usuarios y roles
 
 - Registro y gestión de usuarios.
 - Autenticación mediante credenciales.
@@ -80,64 +77,63 @@ Si algún componente publicado no se encuentra disponible, se puede utilizar la 
 - Control de permisos.
 - Autorización de operaciones desde el backend.
 
-### 🔭 Equipamiento
+### Equipamiento
 
 - Gestión de instrumentos astronómicos.
 - Consulta de información de los equipos.
 - Alta, modificación y eliminación según permisos.
 - Asociación del equipamiento con préstamos y observaciones.
 
-### 📦 Préstamos
+### Préstamos
 
 - Registro de préstamos.
 - Consulta de información.
 - Gestión de estados y datos asociados.
 - Restricción de determinadas operaciones según el rol.
 
-### 🌌 Observaciones
+### Observaciones
 
 - Registro de observaciones astronómicas.
 - Asociación entre usuarios, equipos y objetos celestes.
 - Consulta de observaciones.
 - Integración con la funcionalidad de inteligencia artificial.
 
-### 🪐 Objetos celestes
+### Objetos celestes
 
 - Gestión de objetos observables.
 - Consulta de información.
 - Utilización dentro del registro de observaciones.
 
-### 🤖 Inteligencia artificial
+### Inteligencia artificial
 
 El sistema incorpora una API externa de IA para evaluar la relación entre un equipo astronómico y un determinado objeto celeste.
 
 La funcionalidad se integra como un servicio adicional dentro de la aplicación.
 
-### 📋 Auditoría
+### Auditoría
 
 Se registran determinadas acciones relevantes para disponer de información sobre operaciones realizadas en el sistema.
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 La solución separa el backend del cliente web.
 
 ```text
-[NOMBRE DEL REPOSITORIO]/
+stellar-minds/
 │
-├── [PROYECTO BACKEND]/
-│   ├── Dominio
-│   ├── Excepciones
-│   ├── Acceso a Datos
-│   ├── Lógica de Aplicación
+├── Obligatorio Server/
+│   ├── Lógica de negocio
+│   ├── LógicaAccesoDatos
+│   ├── LógicaAplicación
 │   ├── DTOs
 │   └── Web API
 │
-├── [PROYECTO CLIENTE]/
-│   └── MVC
+├── Obligatorio Cliente/
+│   └── WebApp (MVC)
 │
-├── [SCRIPT BASE DE DATOS].sql
+├── datos.sql
 └── README.md
 ```
 
@@ -145,9 +141,8 @@ La solución separa el backend del cliente web.
 
 | Componente | Responsabilidad |
 |---|---|
-| **Dominio** | Entidades, objetos de valor, reglas y contratos del negocio. |
-| **Excepciones** | Excepciones específicas del dominio y la aplicación. |
-| **Acceso a datos** | Entity Framework Core, `DbContext` y repositorios. |
+| **Lógica de negocio** | Entidades, objetos de valor, reglas y contratos del negocio. |
+| **Lógica de Acceso de Datos** | Entity Framework Core, `DbContext` y repositorios. |
 | **Lógica de aplicación** | Casos de uso y coordinación de operaciones. |
 | **DTOs** | Objetos utilizados para transferir información entre capas. |
 | **Web API** | Controllers, autenticación, autorización, Swagger y endpoints REST. |
@@ -156,7 +151,7 @@ Esta separación permite mantener responsabilidades independientes y facilita el
 
 ---
 
-## 🛠️ Requisitos
+## Requisitos
 
 Para ejecutar el proyecto localmente se necesita:
 
@@ -178,7 +173,7 @@ dotnet --version
 
 ---
 
-# 💻 Ejecución local
+# Ejecución local
 
 La ejecución local permite utilizar todos los componentes sin depender del servidor de despliegue.
 
@@ -214,14 +209,6 @@ Orden recomendado:
 │ SQL Server │  │ Servicio IA  │
 └────────────┘  └──────────────┘
 ```
-
-### Puertos locales
-
-| Servicio | Dirección local |
-|---|---|
-| **API REST** | `http://localhost:[PUERTO_API]` |
-| **Swagger** | `http://localhost:[PUERTO_API]/swagger` |
-| **Frontend MVC** | `http://localhost:[PUERTO_MVC]` |
 
 ---
 
@@ -261,7 +248,7 @@ Si el repositorio contiene un script SQL, ejecutarlo sobre la base creada.
 Por ejemplo:
 
 ```text
-[NOMBRE_BASE_DATOS].sql
+datos.sql
 ```
 
 El script puede incluir:
@@ -324,7 +311,6 @@ Ejemplo:
   "ConnectionStrings": {
     "DefaultConnection": "[CADENA_DE_CONEXION]"
   },
-  "GeminiApiKey": "[API_KEY]",
   "SecretTokenKey": "[CLAVE_SECRETA]"
 }
 ```
@@ -332,10 +318,9 @@ Ejemplo:
 | Propiedad | Función |
 |---|---|
 | `DefaultConnection` | Conexión con SQL Server. |
-| `GeminiApiKey` | API Key para la integración de IA. |
+| `apiKey` | API Key para la integración de IA. |
 | `SecretTokenKey` | Clave utilizada para firmar tokens JWT. |
 
-> Mantener los nombres reales de las propiedades utilizadas por el proyecto.
 
 ---
 
@@ -373,7 +358,6 @@ http://localhost:[PUERTO_API]/swagger
 
 Si Swagger carga correctamente, la API se encuentra disponible.
 
-> Mantener esta terminal abierta mientras se ejecuta el frontend.
 
 ---
 
@@ -445,7 +429,7 @@ http://localhost:[PUERTO_MVC]/[RUTA_LOGIN]
 
 ---
 
-## ✅ Verificación rápida
+## Verificación rápida
 
 - [ ] SQL Server / LocalDB está funcionando.
 - [ ] La base de datos fue creada.
@@ -454,14 +438,14 @@ http://localhost:[PUERTO_MVC]/[RUTA_LOGIN]
 - [ ] La conexión apunta a la base correcta.
 - [ ] La API inicia correctamente.
 - [ ] Swagger responde.
-- [ ] `ApiBaseUrl` apunta a la API correcta.
+- [ ] `apiKey` apunta a la API correcta.
 - [ ] El frontend inicia.
 - [ ] El login funciona.
 - [ ] La API Key está configurada si se desea utilizar IA.
 
 ---
 
-## ⚠️ Problemas frecuentes
+## Problemas frecuentes
 
 | Problema | Qué revisar |
 |---|---|
@@ -477,7 +461,7 @@ http://localhost:[PUERTO_MVC]/[RUTA_LOGIN]
 
 ---
 
-# 🔄 Ejecución híbrida
+# Ejecución híbrida
 
 También es posible combinar componentes locales y publicados.
 
@@ -502,32 +486,30 @@ Este escenario puede resultar útil para realizar pruebas sobre el frontend sin 
 
 ---
 
-# 👥 Usuarios de prueba
+# Usuarios de prueba
 
 Completar con las credenciales reales de la base de datos de desarrollo/demo:
 
 | Rol | Usuario | Contraseña | Descripción |
 |---|---|---|---|
-| **Administrador** | `[USUARIO_ADMIN]` | `[CONTRASEÑA_ADMIN]` | Funciones administrativas. |
-| **Coordinador** | `[USUARIO_COORD]` | `[CONTRASEÑA_COORD]` | Gestión operativa. |
-| **Socio** | `[USUARIO_SOCIO]` | `[CONTRASEÑA_SOCIO]` | Funciones correspondientes al socio. |
+| **Administrador** | `admin1` | `Admin123!` | Funciones administrativas. |
+| **Coordinador** | `coord1` | `Coord123!` | Gestión operativa. |
+| **Socio** | `socio1` | `Socio123!` | Funciones correspondientes al socio. |
 
-> Utilizar únicamente credenciales de prueba. No publicar contraseñas reales.
 
 ---
 
-# 🔌 API REST
+# API REST
 
 La API constituye el punto de comunicación entre el cliente y el backend.
 
 | Recurso | Endpoint base |
 |---|---|
-| Usuarios | `/api/[usuario]` |
-| Equipos | `/api/[equipo]` |
-| Préstamos | `/api/[prestamo]` |
-| Observaciones | `/api/[observacion]` |
-| Objetos celestes | `/api/[objeto-celeste]` |
-| Auditoría | `/api/[auditoria]` |
+| Usuarios | `/api/usuario` |
+| Equipos | `/api/equipo` |
+| Préstamos | `/api/prestamo` |
+| Observaciones | `/api/observacion` |
+| Objetos celestes | `/api/objetoceleste` |
 
 ### Métodos HTTP
 
@@ -540,7 +522,7 @@ La API constituye el punto de comunicación entre el cliente y el backend.
 
 ---
 
-## 🔐 Autenticación mediante JWT
+## Autenticación mediante JWT
 
 Las operaciones protegidas utilizan **JWT Bearer Authentication**.
 
@@ -572,7 +554,7 @@ El backend también puede verificar el rol del usuario antes de permitir determi
 
 ---
 
-## 📖 Swagger / OpenAPI
+## Swagger / OpenAPI
 
 Swagger permite consultar y probar la API de forma interactiva.
 
@@ -593,7 +575,7 @@ http://localhost:[PUERTO_API]/swagger
 
 ---
 
-# 💻 Tecnologías
+# Tecnologías
 
 | Tecnología | Utilización |
 |---|---|
@@ -605,13 +587,13 @@ http://localhost:[PUERTO_API]/swagger
 | **JWT Bearer** | Autenticación y autorización. |
 | **Swagger / OpenAPI** | Documentación de API. |
 | **HTML / CSS / JavaScript** | Interfaz web. |
-| **[PROVEEDOR IA]** | Funcionalidad de inteligencia artificial. |
+| **Gemini IA** | Funcionalidad de inteligencia artificial. |
 | **Git / GitHub** | Control de versiones. |
-| **[HOSTING]** | Despliegue. |
+| **Somee** | Despliegue. |
 
 ---
 
-# 🔒 Seguridad y configuración
+# Seguridad y configuración
 
 Aunque el proyecto está orientado a una entrega académica, se deben considerar algunas buenas prácticas.
 
@@ -642,7 +624,7 @@ La base utilizada para la demo debería contener únicamente información apropi
 
 ---
 
-# 🧠 Aprendizajes
+# Aprendizajes
 
 El desarrollo del proyecto permitió integrar diferentes conocimientos de programación y desarrollo web dentro de una aplicación completa.
 
@@ -664,28 +646,8 @@ En conjunto, el proyecto permitió trabajar el ciclo completo de una aplicación
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
-**[NOMBRE Y APELLIDO]**
+**Federico Clavijo**
 
-**ORT Uruguay — [CARRERA] — [SEMESTRE]**
-
----
-
-## 📌 Revisión antes de publicar
-
-Antes de subir este README al repositorio, comprobar especialmente:
-
-- [ ] Nombre del proyecto.
-- [ ] URLs de frontend y API.
-- [ ] Puerto de la API.
-- [ ] Puerto del frontend.
-- [ ] Nombre real de la base de datos.
-- [ ] Nombres reales de los proyectos.
-- [ ] Rutas reales de los endpoints.
-- [ ] Usuarios de prueba.
-- [ ] Versión de .NET.
-- [ ] Proveedor de IA.
-- [ ] Hosting.
-- [ ] Datos del autor.
-- [ ] Ausencia de API Keys y contraseñas reales.
+**ORT Uruguay — Analista en Tecnologías de la Información (IT Analyst) — 3er semestre**

@@ -1,0 +1,58 @@
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.deps.json
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\refint\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\ref\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.deps.json
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\refint\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\ref\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.deps.json
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\refint\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\ref\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.sourcelink.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.deps.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\bin\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.sourcelink.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\refint\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\LogicaNegocio.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\Logica de negocio\obj\Release\net10.0\ref\LogicaNegocio.dll

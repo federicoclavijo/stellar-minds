@@ -1,0 +1,27 @@
+﻿@model WebApp.Models.EquipoModel
+
+@{
+    ViewData["Title"] = "Borrado de equipo";
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="auth-shell" style="min-height:40vh;">
+    <div class="auth-card text-center">
+        <div class="auth-icon" style="background:var(--danger-soft); color:var(--danger);">
+            <i class="bi bi-exclamation-triangle"></i>
+        </div>
+        <h1>¿Seguro que quieres borrar este equipo?</h1>
+        <p class="auth-subtitle">Esta acción no se puede deshacer.</p>
+
+        <form asp-action="Delete" class="d-flex justify-content-center gap-2 mt-3">
+            <a asp-action="Index" class="btn btn-secondary">Volver</a>
+            <input type="submit" value="Confirmar" class="btn btn-danger" />
+        </form>
+    </div>
+</div>

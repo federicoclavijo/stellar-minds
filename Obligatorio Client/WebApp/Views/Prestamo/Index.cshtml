@@ -1,0 +1,82 @@
+﻿@model IEnumerable<WebApp.Models.PrestamoModel>
+
+@{
+    ViewData["Title"] = "Listado de préstamos";
+}
+
+@if (!String.IsNullOrWhiteSpace(ViewBag.Mensaje))
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> No hay prestamos ingresados en el sistema
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-journal-text"></i></span> Listado de préstamos</h1>
+    <div class="page-actions">
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Alta de préstamo</a>
+    </div>
+</div>
+
+@if (Model.Count() != 0)
+{
+    <div class="table-responsive-wrapper">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.UsuarioId)</th>
+                        <th>@Html.DisplayNameFor(model => model.FechaInicio)</th>
+                        <th>@Html.DisplayNameFor(model => model.FechaFin)</th>
+                        <th>@Html.DisplayNameFor(model => model.Estado)</th>
+                        <th>@Html.DisplayNameFor(model => model.TelescopioId)</th>
+                        <th>@Html.DisplayNameFor(model => model.MonturaId)</th>
+                        <th>@Html.DisplayNameFor(model => model.CamaraId)</th>
+                        <th>@Html.DisplayNameFor(model => model.OcularId)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                            <td>@Html.DisplayFor(modelItem => item.UsuarioId)</td>
+                            <td>@item.FechaInicio.ToString("dd/MM/yyyy")</td>
+                            <td>@item.FechaFin.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (item.Estado == LogicaNegocio.Enums.EstadoPrestamo.DEVUELTO)
+                                {
+                                    <span class="badge bg-success">@Html.DisplayFor(modelItem => item.Estado)</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-info">@Html.DisplayFor(modelItem => item.Estado)</span>
+                                }
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.TelescopioId)</td>
+                            <td>@Html.DisplayFor(modelItem => item.MonturaId)</td>
+                            <td>@Html.DisplayFor(modelItem => item.CamaraId)</td>
+                            <td>@Html.DisplayFor(modelItem => item.OcularId)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

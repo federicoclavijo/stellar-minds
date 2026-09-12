@@ -1,0 +1,59 @@
+﻿@model WebApp.Models.PrestamosXCoordinadorModel
+
+@{
+    ViewData["Title"] = "Prestamos por coordinador";
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-person-badge"></i></span> Préstamos por coordinador</h1>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form asp-action="PrestamosPorCoordinador" method="post">
+            <div class="form-group mb-0">
+                <label class="form-label">Coordinador:</label>
+                <select asp-for="UsuarioId" class="form-control" onchange="this.form.submit()">
+                    <option value="">-- Seleccione un coordinador --</option>
+                    @foreach (var coordinador in Model.Coordinadores)
+                    {
+                        <option value="@coordinador.Id">@coordinador.Nombre @coordinador.Apellido</option>
+                    }
+                </select>
+            </div>
+        </form>
+    </div>
+</div>
+@if (Model.Prestamos != null && Model.Prestamos.Any())
+{
+    <div class="table-responsive-wrapper">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Socio</th>
+                        <th>Fecha</th>
+                        <th>Auditoría</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Prestamos)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Usuario?.Nombre @item.Usuario?.Apellido</td>
+                            <td>@item.FechaInicio.ToString("dd/MM/yyyy")</td>
+                            <td><a asp-controller="Auditoria" asp-action="VerAuditoria" asp-route-id="@item.Id" class="btn btn-dark btn-sm"><i class="bi bi-search"></i> Ver</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

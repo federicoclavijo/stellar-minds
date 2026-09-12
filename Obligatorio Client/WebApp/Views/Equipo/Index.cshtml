@@ -1,0 +1,92 @@
+﻿@model IEnumerable<WebApp.Models.EquipoModel>
+
+@{
+    ViewData["Title"] = "Listado de equipos";
+}
+@if (!String.IsNullOrWhiteSpace(ViewBag.Mensaje))
+{
+    <div class="alert alert-success">
+        <i class="bi bi-check-circle me-1"></i> @ViewBag.Mensaje
+    </div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="page-header">
+    <div>
+        <h1><span class="page-icon"><i class="bi bi-collection"></i></span> Listado de equipos</h1>
+        <div class="page-subtitle">Telescopios, monturas, cámaras y oculares disponibles en StellarMinds.</div>
+    </div>
+    <div class="page-actions">
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-lg"></i> Alta de equipo</a>
+    </div>
+</div>
+
+@if (Model.Count() > 0)
+{
+    <div class="table-responsive-wrapper">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.TipoEquipo)</th>
+                        <th>@Html.DisplayNameFor(model => model.Marca)</th>
+                        <th>@Html.DisplayNameFor(model => model.Modelo)</th>
+                        <th>@Html.DisplayNameFor(model => model.Stock)</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                            <td>
+                                @{
+                                    var tipoIcon = item.TipoEquipo switch
+                                    {
+                                        "Telescopio" => "bi-brightness-high",
+                                        "Montura" => "bi-compass",
+                                        "Camara" => "bi-camera",
+                                        "Ocular" => "bi-circle",
+                                        _ => "bi-tools"
+                                    };
+                                }
+                                <span class="badge badge-tipo"><i class="bi @tipoIcon"></i> @Html.DisplayFor(modelItem => item.TipoEquipo)</span>
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.Marca)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Modelo)</td>
+                            <td>
+                                @if (item.Stock > 0)
+                                {
+                                    <span class="badge bg-success">@Html.DisplayFor(modelItem => item.Stock) disponible(s)</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">Sin stock</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-info btn-sm" style="color:white"><i class="bi bi-pencil"></i> Modificar</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+else
+{
+    <div class="table-responsive-wrapper">
+        <div class="empty-state">
+            <i class="bi bi-collection"></i>
+            No hay equipos cargados en el sistema todavía.
+        </div>
+    </div>
+}

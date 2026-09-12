@@ -1,0 +1,183 @@
+﻿@model WebApp.Models.EquipoModel
+@{
+    ViewData["Title"] = "Alta de equipo";
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-plus-circle"></i></span> Crear nuevo equipo</h1>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form asp-action="Create" method="get">
+
+            <div class="form-group mb-3">
+                <label class="control-label">Seleccione el Tipo de Equipo:</label>
+                <select asp-for="TipoEquipo" class="form-control" onchange="this.form.submit()">
+                    <option value="">-- Seleccione un tipo --</option>
+                    <option value="Telescopio">Telescopio</option>
+                    <option value="Montura">Montura</option>
+                    <option value="Camara">Cámara</option>
+                    <option value="Ocular">Ocular</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.TipoEquipo))
+{
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Create" method="post" class="mt-1">
+
+                <input type="hidden" asp-for="TipoEquipo" />
+
+                <h4 class="mb-3"><i class="bi bi-info-circle text-secondary"></i> Datos Comunes del Equipo</h4>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Marca" class="control-label"></label>
+                    <input asp-for="Marca" class="form-control" />
+                    <span asp-validation-for="Marca" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Modelo" class="control-label"></label>
+                    <input asp-for="Modelo" class="form-control" />
+                    <span asp-validation-for="Modelo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Stock" class="control-label">Stock Inicial</label>
+                    <input asp-for="Stock" type="number" class="form-control" />
+                    <span asp-validation-for="Stock" class="text-danger"></span>
+
+                </div>
+
+
+                @if (Model.TipoEquipo == "Telescopio")
+                {
+                    <h4 class="mt-4 mb-3"><i class="bi bi-brightness-high text-secondary"></i> Especificaciones del Telescopio</h4>
+                    <hr />
+                    <div class="form-group mb-3">
+                        <label>Apertura (mm)</label>
+                        <input asp-for="Apertura" type="number" class="form-control" />
+                        <span asp-validation-for="Apertura" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Relación Focal (Texto)</label>
+                        <input asp-for="RelacionFocal" type="text" class="form-control" />
+                        <span asp-validation-for="RelacionFocal" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Distancia Focal (mm)</label>
+                        <input asp-for="DistanciaFocal" type="number" class="form-control" />
+                        <span asp-validation-for="DistanciaFocal" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Peso (kg)</label>
+                        <input asp-for="Peso" type="number" step="0.01" class="form-control" />
+                        <span asp-validation-for="Peso" class="text-danger"></span>
+
+                    </div>
+                }
+                else if (Model.TipoEquipo == "Montura")
+                {
+                    <h4 class="mt-4 mb-3"><i class="bi bi-compass text-secondary"></i> Especificaciones de la Montura</h4>
+                    <hr />
+                    <div class="form-group mb-3">
+                        <label>Tipo de Montura</label>
+                        <select asp-for="TipoMontura" class="form-control">
+                            <option value="">-- Seleccione un tipo --</option>
+                            <option value="0">Ecuatorial</option>
+                            <option value="1">Altazimutal</option>
+                            <option value="2">Hibrida</option>
+                        </select>
+                        <span asp-validation-for="TipoMontura" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Carga Máxima Soportada (kg)</label>
+                        <input asp-for="CargaMax" type="number" step="0.01" class="form-control" />
+                        <span asp-validation-for="CargaMax" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="form-check-label">¿Tiene GoTo Computarizado?</label>
+                        <select asp-for="GoTo" class="form-control">
+                            <option value="">-- Seleccione --</option>
+                            <option value="true">Sí</option>
+                            <option value="false">No</option>
+                        </select>
+                        <span asp-validation-for="GoTo" class="text-danger"></span>
+
+                    </div>
+                }
+                else if (Model.TipoEquipo == "Camara")
+                {
+                    <h4 class="mt-4 mb-3"><i class="bi bi-camera text-secondary"></i> Especificaciones de la Cámara</h4>
+                    <hr />
+                    <div class="form-group mb-3">
+                        <label>Tipo de Sensor</label>
+                        <select asp-for="Sensor" class="form-control">
+                            <option value="">-- Seleccione --</option>
+                            <option value="0">CMOS</option>
+                            <option value="1">CCD</option>
+                        </select>
+                        <span asp-validation-for="Sensor" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Resolución Máxima</label>
+                        <input asp-for="Resolucion" type="text" class="form-control" />
+                        <span asp-validation-for="Resolucion" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Tamaño de Píxel (um)</label>
+                        <input asp-for="Tamano" type="number" step="0.01" class="form-control" />
+                        <span asp-validation-for="Tamano" class="text-danger"></span>
+
+                    </div>
+                }
+                else if (Model.TipoEquipo == "Ocular")
+                {
+                    <h4 class="mt-4 mb-3"><i class="bi bi-circle text-secondary"></i> Especificaciones del Ocular</h4>
+                    <hr />
+                    <div class="form-group mb-3">
+                        <label>Diámetro (mm)</label>
+                        <input asp-for="Diametro" type="number" class="form-control" />
+                        <span asp-validation-for="Diametro" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Ángulo de Visión (Grados)</label>
+                        <input asp-for="Angulo" type="number" class="form-control" />
+                        <span asp-validation-for="Angulo" class="text-danger"></span>
+
+                    </div>
+                }
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-success"><i class="bi bi-check-lg"></i> Guardar Equipo</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,88 @@
+﻿using LogicaNegocio.Entidades;
+using LogicaNegocio.Enums;
+using LogicaNegocio.Excepciones;
+using LogicaNegocio.InterfacesRepositorios;
+using LogicaNegocio.ValueObjects;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicaAccesoDatos.EF.Repositorios
+{
+    public class RepositorioUsuario : IRepositorioUsuario
+    {
+        private readonly ObligatorioContext _context;
+        public RepositorioUsuario ()
+        {
+            _context = new ObligatorioContext();
+        }
+            
+
+            public void Alta(Usuario aAgregar)
+            {
+                try
+                {
+                    _context.Usuarios.Add(aAgregar);
+                    _context.SaveChanges();
+            }
+                catch (UsuarioException ex)
+                {
+
+                }
+            }
+
+            public void Delete(int id)
+            {
+                throw new NotImplementedException();
+            }
+
+            public IEnumerable<Usuario> FilterByTitle(string titulo)
+            {
+                throw new NotImplementedException();
+            }
+
+            public IEnumerable<Usuario> FindAll()
+            {
+                return _context.Usuarios.AsQueryable().ToList(); ;
+            }
+
+            public Usuario FindById(int id)
+            {
+            var e = _context.Usuarios.Find(id);
+            if (e == null) throw new KeyNotFoundException($"Usuario with id {id} not found.");
+            return e;
+        }
+
+            public Usuario? FindByUsername(string username)
+            {
+                foreach (Usuario usuario in _context.Usuarios)
+                {
+                    if (usuario.User == username)
+                    {
+                        return usuario;
+                    }
+                }
+                return null;
+            }
+
+            public void Update(Usuario aActualizar)
+            {
+                throw new NotImplementedException();
+            }
+
+            public void VerificarUsuarioExistente(Usuario aVerificar)
+            {
+                foreach (Usuario usuario in _context.Usuarios)
+                {
+                    if (usuario.Id == aVerificar.Id)
+                    {
+                        throw new UsuarioException("usuario ya existente");
+                    }
+                }
+            }
+           
+        }
+    }
+

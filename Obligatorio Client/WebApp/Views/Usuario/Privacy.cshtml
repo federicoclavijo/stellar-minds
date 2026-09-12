@@ -1,0 +1,260 @@
+﻿@{
+    ViewData["Title"] = "Acerca del Proyecto";
+}
+
+<link rel="stylesheet" href="~/css/privacy.css" asp-append-version="true" />
+
+<div class="privacy-container">
+    <!-- Encabezado Hero -->
+    <div class="privacy-hero">
+        <div class="hero-content">
+            <h1>
+                <i class="bi bi-telescope"></i>
+                Sistema de Gestión StellarMinds
+            </h1>
+            <p class="hero-subtitle">Una plataforma para administrar usuarios, equipamiento astronómico y préstamos.</p>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="privacy-content">
+
+        <!-- Sección 1: De qué trata el proyecto -->
+        <section class="privacy-section">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="bi bi-info-circle-fill"></i>
+                </div>
+                <h2>De qué trata el proyecto</h2>
+            </div>
+            <div class="section-body">
+                <p>
+                    Este proyecto es un sistema de gestión pensado para un club u observatorio de astronomía, cuyo 
+                    propósito es organizar el préstamo de equipamiento astronómico a sus socios. En lugar de llevar ese 
+                    control en papel o de forma manual, el sistema centraliza todo el proceso: <strong>qué equipos existen, 
+                    cuáles están disponibles, quién los tiene prestados, cuándo deben devolverse y qué observaciones se 
+                    hicieron con ellos.</strong>
+                </p>
+                <p>
+                    Está pensado para funcionar con <strong>distintos tipos de usuarios</strong>, cada uno con su propio 
+                    rol y sus propias posibilidades dentro del sistema.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección 2: Qué ofrece a los usuarios -->
+        <section class="privacy-section">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <h2>Qué ofrece a los usuarios</h2>
+            </div>
+            <div class="section-body">
+
+                <!-- Cards de Roles -->
+                <div class="roles-grid">
+
+                    <!-- Administrador -->
+                    <div class="role-card role-admin">
+                        <div class="role-header">
+                            <div class="role-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <h3>Administrador</h3>
+                        </div>
+                        <div class="role-content">
+                            <p class="role-description">
+                                Tiene el control total del sistema.
+                            </p>
+                            <ul class="role-features">
+                                <li><i class="bi bi-check-circle"></i> Dar de alta nuevos socios</li>
+                                <li><i class="bi bi-check-circle"></i> Gestionar catálogo completo de equipos</li>
+                                <li><i class="bi bi-check-circle"></i> Cargar telescopios, monturas, cámaras y oculares</li>
+                                <li><i class="bi bi-check-circle"></i> Registrar características técnicas (apertura, distancia focal, peso, sensor, capacidad de carga)</li>
+                                <li><i class="bi bi-check-circle"></i> Modificar o eliminar equipos</li>
+                                <li><i class="bi bi-check-circle"></i> Consultar préstamos por coordinador</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Coordinador -->
+                    <div class="role-card role-coordinator">
+                        <div class="role-header">
+                            <div class="role-icon">
+                                <i class="bi bi-person-badge"></i>
+                            </div>
+                            <h3>Coordinador</h3>
+                        </div>
+                        <div class="role-content">
+                            <p class="role-description">
+                                Gestiona los préstamos día a día.
+                            </p>
+                            <ul class="role-features">
+                                <li><i class="bi bi-check-circle"></i> Ver listado completo de préstamos activos</li>
+                                <li><i class="bi bi-check-circle"></i> Registrar devoluciones</li>
+                                <li><i class="bi bi-check-circle"></i> Consultar préstamos agrupados por socio</li>
+                                <li><i class="bi bi-check-circle"></i> Visualizar socios por telescopio</li>
+                                <li><i class="bi bi-check-circle"></i> Acceder al historial de auditoría</li>
+                                <li><i class="bi bi-check-circle"></i> Conocer exactamente qué acciones se realizaron y cuándo</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Socio -->
+                    <div class="role-card role-member">
+                        <div class="role-header">
+                            <div class="role-icon">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <h3>Socio</h3>
+                        </div>
+                        <div class="role-content">
+                            <p class="role-description">
+                                Usuario final que usa los equipos.
+                            </p>
+                            <ul class="role-features">
+                                <li><i class="bi bi-check-circle"></i> Solicitar préstamos</li>
+                                <li><i class="bi bi-check-circle"></i> Elegir telescopio, montura, cámara y ocular</li>
+                                <li><i class="bi bi-check-circle"></i> Indicar fecha límite de préstamo</li>
+                                <li><i class="bi bi-check-circle"></i> Verificación en tiempo real de disponibilidad</li>
+                                <li><i class="bi bi-check-circle"></i> Consultar sus préstamos filtrados por fecha</li>
+                                <li><i class="bi bi-check-circle"></i> Registrar observaciones astronómicas</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección 3: Funcionalidad compartida -->
+        <section class="privacy-section privacy-section-highlight">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h2>Funcionalidades compartidas</h2>
+            </div>
+            <div class="section-body">
+                <p>
+                    <strong>Todos los usuarios autenticados</strong> pueden acceder a un 
+                    <strong>ranking de objetos celestes</strong>, que muestra cuáles son los más observados por los socios, 
+                    aportando una dimensión más social y de comunidad al sistema, más allá de la simple gestión administrativa.
+                </p>
+
+                <div class="feature-highlight">
+                    <div class="feature-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Evaluación inteligente de observaciones</h4>
+                        <p>
+                            Una particularidad interesante del sistema es que, al registrar una observación, esta se evalúa 
+                            automáticamente con ayuda de inteligencia artificial (Gemini), que analiza los datos ingresados 
+                            y devuelve un indicador de qué tan recomendable fue esa observación según las condiciones registradas, 
+                            con el detalle correspondiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: Cómo se trabajó -->
+        <section class="privacy-section">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="bi bi-code-square"></i>
+                </div>
+                <h2>Cómo se trabajó</h2>
+            </div>
+            <div class="section-body">
+                <p>
+                    El sistema fue desarrollado en <strong>dos partes separadas</strong>:
+                </p>
+
+                <div class="architecture-container">
+                    <div class="architecture-item">
+                        <div class="arch-icon">
+                            <i class="bi bi-server"></i>
+                        </div>
+                        <h4>API (Backend)</h4>
+                        <p>
+                            Contiene toda la lógica de negocio y el acceso a los datos: equipos, usuarios, préstamos, 
+                            auditorías y observaciones.
+                        </p>
+                    </div>
+                    <div class="architecture-divider">
+                        <i class="bi bi-arrow-left-right"></i>
+                    </div>
+                    <div class="architecture-item">
+                        <div class="arch-icon">
+                            <i class="bi bi-browser-chrome"></i>
+                        </div>
+                        <h4>Frontend (Esta interfaz)</h4>
+                        <p>
+                            Construido en ASP.NET MVC con C# y Razor. Es la interfaz con la que interactúan los usuarios.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <p>
+                        <strong>El frontend se comunica con la API</strong> para obtener y enviar la información, pero 
+                        <strong>no contiene la lógica de negocio</strong> en sí misma: su función es presentar los datos 
+                        de forma clara y permitir que cada tipo de usuario realice las acciones que le corresponden según 
+                        su rol.
+                    </p>
+                </div>
+
+                <h4 style="margin-top: 1.5rem; margin-bottom: 0.75rem;">Seguridad y personalización</h4>
+                <p>
+                    El acceso al sistema está protegido por un <strong>inicio de sesión</strong>, y una vez dentro, 
+                    el menú de navegación se adapta automáticamente mostrando solo las opciones habilitadas para el rol 
+                    de la persona que ingresó, de modo que <strong>cada usuario ve únicamente las herramientas que puede usar</strong>.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección 5: Tecnología -->
+        <section class="privacy-section privacy-section-tech">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="bi bi-cpu"></i>
+                </div>
+                <h2>Stack tecnológico</h2>
+            </div>
+            <div class="section-body">
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>ASP.NET Core MVC</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>Razor</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>API REST</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="bi bi-box"></i>
+                        <span>Gemini AI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+

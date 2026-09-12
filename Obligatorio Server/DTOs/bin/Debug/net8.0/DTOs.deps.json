@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DTOs/1.0.0": {
+        "dependencies": {
+          "LogicaNegocio": "1.0.0"
+        },
+        "runtime": {
+          "DTOs.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.26": {
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "8.0.26.0",
+            "fileVersion": "8.0.2626.16905"
+          }
+        }
+      },
+      "LogicaNegocio/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.26"
+        },
+        "runtime": {
+          "LogicaNegocio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UVXlDz6os+VLpCjEcCjxexXyrxlq7vM3OD2KnyQlnzM9Q8WCsKNI+1PJiR2B6Em+yDCROSHy1jPNXaqxrzrCPQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.26",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.8.0.26.nupkg.sha512"
+    },
+    "LogicaNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

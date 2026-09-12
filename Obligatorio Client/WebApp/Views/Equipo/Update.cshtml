@@ -1,0 +1,136 @@
+﻿@model WebApp.Models.EquipoModel
+
+@{
+    ViewData["Title"] = "Modificación de equipo";
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-pencil-square"></i></span> Modificación de equipo</h1>
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="row">
+    <div class="col-md-6 col-lg-5">
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="Update">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Marca" class="control-label"></label>
+                        <input asp-for="Marca" class="form-control" />
+                        <span asp-validation-for="Marca" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Modelo" class="control-label"></label>
+                        <input asp-for="Modelo" class="form-control" />
+                        <span asp-validation-for="Modelo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Stock" class="control-label"></label>
+                        <input asp-for="Stock" class="form-control" />
+                        <span asp-validation-for="Stock" class="text-danger"></span>
+                    </div>
+                    @if (Model.TipoEquipo == "Telescopio")
+                    {
+
+                        <div class="form-group">
+                            <label asp-for="Apertura" class="control-label"></label>
+                            <input asp-for="Apertura" class="form-control" />
+                            <span asp-validation-for="Apertura" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RelacionFocal" class="control-label"></label>
+                            <input asp-for="RelacionFocal" class="form-control" />
+                            <span asp-validation-for="RelacionFocal" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DistanciaFocal" class="control-label"></label>
+                            <input asp-for="DistanciaFocal" class="form-control" />
+                            <span asp-validation-for="DistanciaFocal" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Peso" class="control-label"></label>
+                            <input asp-for="Peso" class="form-control" />
+                            <span asp-validation-for="Peso" class="text-danger"></span>
+                        </div>
+                    }
+                    @if (Model.TipoEquipo == "Montura")
+                    {
+                        <div class="form-group">
+                            <label asp-for="TipoMontura" class="control-label"></label>
+                            <select asp-for="TipoMontura" class="form-control">
+                                <option value="">-- Seleccione --</option>
+                                <option value="Ecuatorial">Ecuatorial</option>
+                                <option value="Altazimutal">Altazimutal</option>
+                                <option value="Hibrida">Híbrida</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CargaMax" class="control-label"></label>
+                            <input asp-for="CargaMax" class="form-control" />
+                            <span asp-validation-for="CargaMax" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="GoTo" class="control-label"></label>
+                            <select asp-for="GoTo" class="form-control">
+                                <option value="">-- Seleccione --</option>
+                                <option value="true">Si</option>
+                                <option value="false">No</option>
+                            </select>
+                        </div>
+                    }
+                    @if (Model.TipoEquipo == "Camara")
+                    {
+                        <div class="form-group">
+                            <label asp-for="Sensor" class="control-label"></label>
+                            <select asp-for="Sensor" class="form-control">
+                                <option value="">-- Seleccione --</option>
+                                <option value="0">CMOS</option>
+                                <option value="1">CCD</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Resolucion" class="control-label"></label>
+                            <input asp-for="Resolucion" class="form-control" />
+                            <span asp-validation-for="Resolucion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Tamano" class="control-label"></label>
+                            <input asp-for="Tamano" class="form-control" />
+                            <span asp-validation-for="Tamano" class="text-danger"></span>
+                        </div>
+                    }
+                    @if (Model.TipoEquipo == "Ocular")
+                    {
+                        <div class="form-group">
+                            <label asp-for="Diametro" class="control-label"></label>
+                            <input asp-for="Diametro" class="form-control" />
+                            <span asp-validation-for="Diametro" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Angulo" class="control-label"></label>
+                            <input asp-for="Angulo" class="form-control" />
+                            <span asp-validation-for="Angulo" class="text-danger"></span>
+                        </div>
+                    }
+                    <input type="hidden" asp-for="TipoEquipo" value="@Model.TipoEquipo" />
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Guardar" class="btn btn-primary" /> <a asp-action="Index" class="btn btn-secondary">Volver</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

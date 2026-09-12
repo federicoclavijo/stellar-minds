@@ -1,0 +1,324 @@
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v3\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v4\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v5.1\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v6.1\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.2\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v6.3\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v7\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\fedep3 v8\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\fedep3 v9\Logica de negocio\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\alumnoFI\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 v2\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\ref\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 v4\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.sourcelink.json
+C:\Users\User\Desktop\Obligatorio P3\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.sourcelink.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.deps.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.runtimeconfig.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\bin\Debug\net10.0\LogicaNegocio.pdb
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.AssemblyInfo.cs
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.sourcelink.json
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.csproj.Up2Date
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\refint\DTOs.dll
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.pdb
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\DTOs.genruntimeconfig.cache
+C:\Users\User\Desktop\Obligatorio P3 - copia\Obligatorio\Obligatorio Server\DTOs\obj\Debug\net10.0\ref\DTOs.dll

@@ -1,0 +1,396 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StellarMinds</title>
+    <meta name="description" content="StellarMinds es el sistema que usa tu observatorio para gestionar el préstamo de telescopios, monturas, cámaras y oculares, con evaluación de observaciones asistida por IA." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/landing.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" href="~/css/img/astronomia.png" />
+</head>
+<body class="landing">
+
+    <!-- ===================== NAV ===================== -->
+    <nav class="landing-nav">
+        <div class="container nav-inner">
+            <a href="#top" class="landing-brand">
+                <span class="dot"></span> StellarMinds
+            </a>
+            <ul class="landing-links">
+                <li><a href="#funciones" data-section="funciones">Funciones</a></li>
+                <li><a href="#experiencia" data-section="experiencia">IA</a></li>
+                <li><a href="#roles" data-section="roles">Roles</a></li>
+                <li><a href="#tecnologia" data-section="tecnologia">Tecnología</a></li>
+                <li><a href="#proyecto" data-section="proyecto">Proyecto</a></li>
+                <li class="d-md-none">
+                    <a asp-controller="Usuario" asp-action="Login">Iniciar sesión</a>
+                </li>
+            </ul>
+            <a asp-controller="Usuario" asp-action="Login" class="btn-login d-none d-md-inline-flex">
+                <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Abrir menú">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <header id="top" class="hero">
+        <canvas id="starfield"></canvas>
+        <div class="hero-glow"></div>
+        <div class="hero-blob b1"></div>
+        <div class="hero-blob b2"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <span class="eyebrow"><i class="bi bi-stars"></i> Sistema de gestión astronómica</span>
+                <h1>
+                    Coordiná el <span class="grad">préstamo de equipamiento</span> de tu observatorio sin perder de vista ni una estrella.
+                </h1>
+                <p class="lead">
+                    StellarMinds centraliza la administración de telescopios, monturas, cámaras y oculares:
+                    controla disponibilidad, gestiona préstamos y devoluciones, y evalúa observaciones astronómicas
+                    con ayuda de inteligencia artificial, todo en un mismo lugar.
+                </p>
+                <div class="hero-actions">
+                    <a asp-controller="Usuario" asp-action="Login" class="btn-hero-primary">
+                        <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+                    </a>
+                    <a href="#funciones" class="btn-hero-secondary">
+                        <i class="bi bi-play-circle"></i> Ver funciones
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-num"><span data-count="3">0</span></div>
+                        <div class="stat-label">Perfiles de usuario</div>
+                    </div>
+                    <div>
+                        <div class="stat-num"><span data-count="4">0</span></div>
+                        <div class="stat-label">Tipos de equipo</div>
+                    </div>
+                    <div>
+                        <div class="stat-num"><span data-count="100" data-suffix="%">0%</span></div>
+                        <div class="stat-label">Préstamos trazables</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===================== FUNCIONES ===================== -->
+        <section id="funciones" class="section" data-observe-section>
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow"><i class="bi bi-grid-1x2"></i> Funciones</span>
+                    <h2>Todo lo que necesita tu observatorio, en un solo sistema</h2>
+                    <p>Desde el alta de un equipo hasta el registro de una observación, StellarMinds acompaña todo el ciclo del préstamo.</p>
+                </div>
+
+                <div id="featuresCarousel" class="carousel slide reveal" data-bs-ride="carousel" data-bs-interval="5500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-slide">
+                                <div class="cs-icon"><i class="bi bi-collection"></i></div>
+                                <div>
+                                    <h3>Catálogo de equipos</h3>
+                                    <p>
+                                        Alta, modificación y baja de telescopios, monturas, cámaras y oculares, cada uno con sus
+                                        características técnicas propias (apertura, distancia focal, carga máxima, tipo de sensor, etc.)
+                                        y su stock disponible.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-slide">
+                                <div class="cs-icon"><i class="bi bi-arrow-left-right"></i></div>
+                                <div>
+                                    <h3>Préstamos y devoluciones</h3>
+                                    <p>
+                                        Los coordinadores registran cada préstamo verificando en el momento la disponibilidad real
+                                        del equipo elegido, y gestionan su devolución cuando corresponde.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-slide">
+                                <div class="cs-icon"><i class="bi bi-stars"></i></div>
+                                <div>
+                                    <h3>Observaciones evaluadas con IA</h3>
+                                    <p>
+                                        Los socios registran qué objeto celeste observaron y con qué préstamo, y reciben una
+                                        evaluación automática sobre la conveniencia de esa observación antes de guardarla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-slide">
+                                <div class="cs-icon"><i class="bi bi-clock-history"></i></div>
+                                <div>
+                                    <h3>Auditoría y trazabilidad</h3>
+                                    <p>
+                                        Cada préstamo queda registrado con su historial de acciones, consultable en cualquier
+                                        momento por los administradores del sistema.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-slide">
+                                <div class="cs-icon"><i class="bi bi-bar-chart-line"></i></div>
+                                <div>
+                                    <h3>Ranking de objetos celestes</h3>
+                                    <p>
+                                        Todos los usuarios autenticados pueden consultar qué objetos celestes son los más
+                                        observados por la comunidad de socios.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-nav-row">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#featuresCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="4"></button>
+                        </div>
+                        <button class="carousel-control-next" type="button" data-bs-target="#featuresCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section-head reveal" style="margin-top:4.5rem; margin-bottom:2rem;">
+                    <span class="eyebrow"><i class="bi bi-tools"></i> Equipamiento</span>
+                    <h2>Pensado para cada instrumento del observatorio</h2>
+                </div>
+
+                <div class="feature-grid reveal">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-brightness-high"></i></div>
+                        <h3>Telescopios</h3>
+                        <p>Apertura, relación focal, distancia focal y peso, para elegir el instrumento adecuado para cada observación.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-compass"></i></div>
+                        <h3>Monturas</h3>
+                        <p>Ecuatoriales, altazimutales o híbridas, con su carga máxima soportada y disponibilidad de GoTo computarizado.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-camera"></i></div>
+                        <h3>Cámaras</h3>
+                        <p>Sensores CMOS o CCD, con su resolución máxima y tamaño de píxel, listas para astrofotografía.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-circle"></i></div>
+                        <h3>Oculares</h3>
+                        <p>Diámetro y ángulo de visión, para completar la configuración óptica de cada préstamo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERIENCIA IA ===================== -->
+        <section id="experiencia" class="section" data-observe-section style="background:var(--bg-alt);">
+            <div class="container">
+                <div class="ai-section">
+                    <div class="reveal">
+                        <span class="eyebrow"><i class="bi bi-cpu"></i> Evaluación inteligente</span>
+                        <h2>Cada observación se evalúa antes de guardarse</h2>
+                        <p style="color:var(--text-secondary); line-height:1.7; margin-top:0.8rem;">
+                            Cuando un socio quiere registrar una observación, indica qué objeto celeste observó,
+                            con qué préstamo y en qué fecha. Antes de confirmarla, esos datos se envían a un motor
+                            de evaluación basado en inteligencia artificial, que analiza las condiciones y devuelve
+                            un indicador junto con el detalle de su resultado.
+                        </p>
+                        <ul class="ai-list">
+                            <li><i class="bi bi-check-circle-fill"></i> Verificación automática antes de guardar cualquier observación.</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Indicador claro sobre qué tan recomendable fue la observación.</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Detalle explicativo del resultado devuelto por el motor de evaluación.</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Solo las observaciones evaluadas positivamente pueden confirmarse.</li>
+                        </ul>
+                    </div>
+                    <div class="ai-visual reveal">
+                        <div class="orbit-ring r1"></div>
+                        <div class="orbit-ring r2"></div>
+                        <div class="orbit-ring r3"></div>
+                        <div class="ai-core"><i class="bi bi-stars"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ROLES ===================== -->
+        <section id="roles" class="section" data-observe-section>
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow"><i class="bi bi-people"></i> Roles</span>
+                    <h2>Cada usuario ve exactamente lo que necesita</h2>
+                    <p>El sistema adapta sus funciones según el perfil de quien inició sesión.</p>
+                </div>
+
+                <div class="reveal">
+                    <div class="role-tabs">
+                        <button class="role-tab-btn active" data-role="admin"><i class="bi bi-person-gear"></i> Administrador</button>
+                        <button class="role-tab-btn" data-role="coordinador"><i class="bi bi-person-badge"></i> Coordinador</button>
+                        <button class="role-tab-btn" data-role="socio"><i class="bi bi-binoculars"></i> Socio</button>
+                    </div>
+
+                    <div class="role-panel active" data-role="admin">
+                        <div>
+                            <h3><i class="bi bi-person-gear" style="color:var(--primary)"></i> Administrador</h3>
+                            <p class="role-desc">Tiene visibilidad y control total sobre los socios y el catálogo de equipos del observatorio.</p>
+                        </div>
+                        <ul>
+                            <li><i class="bi bi-arrow-right-short"></i> Alta de nuevos socios en el sistema.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Alta, modificación y baja de equipos.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Consulta de préstamos agrupados por coordinador.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Acceso al detalle y auditoría completa de cada préstamo.</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-panel" data-role="coordinador">
+                        <div>
+                            <h3><i class="bi bi-person-badge" style="color:var(--primary)"></i> Coordinador</h3>
+                            <p class="role-desc">Lleva adelante la operación diaria de los préstamos del observatorio.</p>
+                        </div>
+                        <ul>
+                            <li><i class="bi bi-arrow-right-short"></i> Alta de préstamos, verificando disponibilidad antes de confirmar.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Registro de devoluciones de equipos.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Listado de préstamos agrupados por socio.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Consulta de socios que utilizaron un telescopio determinado.</li>
+                        </ul>
+                    </div>
+
+                    <div class="role-panel" data-role="socio">
+                        <div>
+                            <h3><i class="bi bi-binoculars" style="color:var(--primary)"></i> Socio</h3>
+                            <p class="role-desc">Es quien retira equipos del observatorio para realizar sus propias observaciones.</p>
+                        </div>
+                        <ul>
+                            <li><i class="bi bi-arrow-right-short"></i> Consulta de sus préstamos vigentes filtrados por fecha.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Alta de observaciones, evaluadas automáticamente antes de guardarse.</li>
+                            <li><i class="bi bi-arrow-right-short"></i> Acceso al ranking de objetos celestes más observados.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== TECNOLOGÍA ===================== -->
+        <section id="tecnologia" class="section" data-observe-section style="background:var(--bg-alt);">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow"><i class="bi bi-code-slash"></i> Tecnología</span>
+                    <h2>Construido sobre una base sólida</h2>
+                    <p>El cliente web se desarrolló en ASP.NET MVC y se conecta a una API REST externa que expone toda la lógica de negocio.</p>
+                </div>
+
+                <div class="tech-marquee-wrap reveal">
+                    <div class="tech-marquee">
+                        <div class="tech-chip"><i class="bi bi-hexagon"></i> ASP.NET Core MVC</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-cs"></i> C#</div>
+                        <div class="tech-chip"><i class="bi bi-braces"></i> Razor Views</div>
+                        <div class="tech-chip"><i class="bi bi-bootstrap"></i> Bootstrap 5</div>
+                        <div class="tech-chip"><i class="bi bi-stars"></i> Bootstrap Icons</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-js"></i> jQuery</div>
+                        <div class="tech-chip"><i class="bi bi-check2-square"></i> jQuery Validation</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-json"></i> Newtonsoft.Json</div>
+                        <div class="tech-chip"><i class="bi bi-cloud-arrow-up"></i> API REST</div>
+                        <div class="tech-chip"><i class="bi bi-shield-lock"></i> Autenticación por token</div>
+                        <div class="tech-chip"><i class="bi bi-cpu"></i> Evaluación con IA</div>
+                        <!-- duplicado para el loop continuo -->
+                        <div class="tech-chip"><i class="bi bi-hexagon"></i> ASP.NET Core MVC</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-cs"></i> C#</div>
+                        <div class="tech-chip"><i class="bi bi-braces"></i> Razor Views</div>
+                        <div class="tech-chip"><i class="bi bi-bootstrap"></i> Bootstrap 5</div>
+                        <div class="tech-chip"><i class="bi bi-stars"></i> Bootstrap Icons</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-js"></i> jQuery</div>
+                        <div class="tech-chip"><i class="bi bi-check2-square"></i> jQuery Validation</div>
+                        <div class="tech-chip"><i class="bi bi-filetype-json"></i> Newtonsoft.Json</div>
+                        <div class="tech-chip"><i class="bi bi-cloud-arrow-up"></i> API REST</div>
+                        <div class="tech-chip"><i class="bi bi-shield-lock"></i> Autenticación por token</div>
+                        <div class="tech-chip"><i class="bi bi-cpu"></i> Evaluación con IA</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROYECTO ===================== -->
+        <section id="proyecto" class="section" data-observe-section>
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow"><i class="bi bi-info-circle"></i> Sobre el proyecto</span>
+                    <h2>Un sistema pensado para observatorios y clubes de astronomía</h2>
+                    <p>StellarMinds surge para resolver un problema concreto: coordinar de forma ordenada el uso compartido de instrumental astronómico entre varios socios.</p>
+                </div>
+
+                <div class="about-grid reveal">
+                    <div class="about-card">
+                        <i class="bi bi-question-circle"></i>
+                        <h4>¿Qué es?</h4>
+                        <p>Un cliente web desarrollado en ASP.NET MVC que sirve de interfaz para gestionar el préstamo de equipamiento astronómico, consumiendo una API REST externa que centraliza los datos.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="bi bi-people"></i>
+                        <h4>¿A quién está dirigido?</h4>
+                        <p>A observatorios, clubes de astronomía o instituciones que necesiten coordinar el uso compartido de instrumental entre sus socios de forma ordenada y trazable.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="bi bi-shield-check"></i>
+                        <h4>¿Cómo protege los datos?</h4>
+                        <p>El acceso está protegido por autenticación basada en token, y el sistema muestra a cada usuario únicamente las funciones habilitadas para su rol.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CTA ===================== -->
+        <section class="section" style="padding-top:0;">
+            <div class="container">
+                <div class="cta-section reveal">
+                    <h2>¿Listo para coordinar tu observatorio?</h2>
+                    <p>Ingresá con tu usuario y accedé a las funciones habilitadas para tu perfil.</p>
+                    <a asp-controller="Usuario" asp-action="Login" class="btn-hero-primary">
+                        <i class="bi bi-box-arrow-in-right"></i> Iniciar sesión
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="landing-footer">
+        <div class="container footer-row">
+            <a href="#top" class="landing-brand">
+                <span class="dot"></span> StellarMinds
+            </a>
+            <div>&copy; 2026 StellarMinds · Sistema de gestión de equipamiento astronómico</div>
+            <a asp-controller="Usuario" asp-action="Login">Iniciar sesión</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/landing.js" asp-append-version="true"></script>
+</body>
+</html>

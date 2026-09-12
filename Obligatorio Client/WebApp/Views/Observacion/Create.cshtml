@@ -1,0 +1,143 @@
+﻿@using WebApp.Enums
+@using LogicaNegocio.Enums
+@model WebApp.Models.ObservacionModel
+
+@{
+    ViewData["Title"] = "Alta de observación";
+}
+
+@if (!String.IsNullOrWhiteSpace(ViewBag.Mensaje))
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-binoculars"></i></span> Alta de observación</h1>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form id="formObservacion" asp-action="Evaluar" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="PrestamoId"></label>
+                <select asp-for="PrestamoId" class="form-control">
+                    <option value="">-- Seleccione un préstamo --</option>
+                    @foreach (var prestamo in Model.Prestamos)
+                    {
+                        <option value="@prestamo.Id">Préstamo número: @prestamo.Id - Fecha: @prestamo.FechaInicio.ToString("dd/MM/yyyy") - Fecha fin: @prestamo.FechaFin.ToString("dd/MM/yyyy")</option>
+                    }
+                </select>
+                <span asp-validation-for="PrestamoId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ObjetoCelesteId"></label>
+                <select asp-for="ObjetoCelesteId" class="form-control">
+                    <option value="">-- Seleccione un objeto celeste --</option>
+                    @foreach (var objeto in Model.ObjetosCelestes)
+                    {
+                        <option value="@objeto.Id">@objeto.Id - @objeto.Nombre - @objeto.Tipo</option>
+                    }
+                </select>
+                <span asp-validation-for="ObjetoCelesteId" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label asp-for="FechaObservacion" class="form-label">Fecha:</label>
+                        <input asp-for="FechaObservacion" type="date" class="form-control" required />
+                    </div>
+                    <span asp-validation-for="FechaObservacion" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="submit" class="btn btn-primary w-100"><i class="bi bi-search"></i> Evaluar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model.Evaluado)
+{
+    <div class="alert alert-info mt-3">
+
+        <h5>Resultado de la evaluación</h5>
+
+        <p>
+            <strong>Indicador:</strong>
+            @Model.Indicador
+        </p>
+
+        <p>
+            <strong>Detalle:</strong>
+            @Model.Detalle
+        </p>
+    </div>
+}
+
+@if (Model.Evaluado && Model.Indicador != "NO_RECOMENDABLE")
+{
+    <form asp-action="Create" method="post">
+
+        <input type="hidden" asp-for="PrestamoId" />
+        <input type="hidden" asp-for="ObjetoCelesteId" />
+        <input type="hidden" asp-for="FechaObservacion" />
+        <input type="hidden" asp-for="Indicador" />
+        <input type="hidden" asp-for="Detalle" />
+        <input type="hidden" asp-for="Evaluado" />
+
+        <button type="submit" id="create" class="btn btn-success">
+            <i class="bi bi-check-lg"></i> Confirmar observación
+        </button>
+
+    </form>
+}
+
+@if (Model.Evaluado && Model.Indicador == "NO_RECOMENDABLE")
+{
+    <div class="alert alert-danger mt-3">
+        No es posible registrar una observación con indicador NO RECOMENDABLE.
+    </div>
+}
+
+<div id="loading" style="display:none; align-items: center; gap: 10px;">
+    <img src="~/css/img/200.gif" style="width: 24px; height: 24px;" />
+    <p style="margin: 0;">Gemini está evaluando la observación...</p>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById("formObservacion")
+        .addEventListener("submit", function () {
+
+        if (!$(this).valid()) {
+        return false;
+        }
+
+        const loadingDiv = document.getElementById("loading");
+        loadingDiv.style.display = "flex";
+
+        document.querySelector("button[type='submit']")
+        .disabled = true;
+        });
+    </script>
+}

@@ -1,0 +1,55 @@
+﻿@model WebApp.Models.PrestamoModel
+
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-journal-text"></i></span> Detalle de préstamo</h1>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Id):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Id)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Usuario):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Usuario.Nombre) @Html.DisplayFor(model => model.Usuario.Apellido)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FechaInicio):</dt>
+            <dd class="col-sm-9">@Model.FechaInicio.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FechaFin):</dt>
+            <dd class="col-sm-9">@Model.FechaFin.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Estado):</dt>
+            <dd class="col-sm-9">
+                @if (Model.Estado == LogicaNegocio.Enums.EstadoPrestamo.DEVUELTO)
+                {
+                    <span class="badge bg-success">@Html.DisplayFor(model => model.Estado)</span>
+                }
+                else
+                {
+                    <span class="badge bg-info">@Html.DisplayFor(model => model.Estado)</span>
+                }
+            </dd>
+
+            <dt class="col-sm-3"><i class="bi bi-brightness-high text-secondary"></i> @Html.DisplayNameFor(model => model.Telescopio):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Telescopio.Marca) - @Html.DisplayFor(model => model.Telescopio.Modelo)</dd>
+
+            <dt class="col-sm-3"><i class="bi bi-compass text-secondary"></i> @Html.DisplayNameFor(model => model.Montura):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Montura.Marca) - @Html.DisplayFor(model => model.Montura.Modelo)</dd>
+
+            <dt class="col-sm-3"><i class="bi bi-camera text-secondary"></i> @Html.DisplayNameFor(model => model.Camara):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Camara.Marca) - @Html.DisplayFor(model => model.Camara.Modelo)</dd>
+
+            <dt class="col-sm-3"><i class="bi bi-circle text-secondary"></i> @Html.DisplayNameFor(model => model.Ocular):</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Ocular.Marca) - @Html.DisplayFor(model => model.Ocular.Modelo)</dd>
+        </dl>
+    </div>
+</div>
+
+<p class="mt-3">
+    <a asp-controller="Auditoria" asp-action="VerAuditoria" asp-route-id="@Model.Id" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Volver</a>
+</p>

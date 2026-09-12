@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StellarMinds</title>
+    <link rel="icon" type="image/png" href="~/css/img/astronomia.png" />
+    <script type="importmap"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-stars"></i> StellarMinds
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (Context?.Session?.GetString("rol") == "Administrador")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Create"><i class="bi bi-person-plus"></i> Alta de socio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Equipo" asp-action="Index"><i class="bi bi-collection"></i> Index equipos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Prestamo" asp-action="PrestamosPorCoordinador"><i class="bi bi-person-badge"></i> Prestamos por coordinador</a>
+                            </li>
+                        }
+                        @if (Context?.Session?.GetString("rol") == "Administrador" || Context?.Session?.GetString("rol") == "Coordinador")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Prestamo" asp-action="ListadoSociosXTelescopio"><i class="bi bi-people"></i> Listado de socios por telescopio</a>
+                            </li>
+                        }
+                        @if (Context?.Session?.GetString("rol") == "Coordinador" )
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Prestamo" asp-action="Index"><i class="bi bi-list-check"></i> Listado prestamos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Prestamo" asp-action="ListadoPrestamosXSocio"><i class="bi bi-person-lines-fill"></i> Listado prestamos por socio</a>
+                            </li>
+                        }
+                        @if (Context?.Session?.GetString("rol") == "Socio")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Prestamo" asp-action="ListadoEnFecha"><i class="bi bi-calendar3"></i> Listado prestamos en fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Observacion" asp-action="Create"><i class="bi bi-binoculars"></i> Alta de observación</a>
+                            </li>
+                        }
+                        @if (Context?.Session?.GetString("token") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Observacion" asp-action="Ranking"><i class="bi bi-bar-chart-line"></i> Ranking de objetos celestes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Logout"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container" style="color: white">
+            &copy; 2026 - StellarMinds - <a asp-area="" asp-controller="Usuario" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

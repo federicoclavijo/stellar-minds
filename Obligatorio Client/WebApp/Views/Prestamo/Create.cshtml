@@ -1,0 +1,162 @@
+﻿@using WebApp.Enums
+@using LogicaNegocio.Enums
+@model WebApp.Models.PrestamoModel
+
+@{
+    ViewData["Title"] = "Alta de préstamo";
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-journal-plus"></i></span> Alta de préstamo</h1>
+</div>
+
+<div id="alertaStock" class="alert alert-danger d-none" role="alert">
+    El equipo seleccionado no tiene disponibilidad
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="form-label">Socio:</label>
+                <select asp-for="UsuarioId" class="form-control">
+                    <option value="">-- Seleccione un socio --</option>
+                    @foreach (var usuario in ViewBag.Usuarios)
+                    {
+                        @if(usuario.Rol == "Socio")
+                        {
+                            <option value="@usuario.Id">@usuario.Nombre - @usuario.Apellido</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaFin" class="form-label">Fecha Fin:</label>
+                <input asp-for="FechaFin" type="date" class="form-control" required />
+                <span asp-validation-for="FechaFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelescopioId" class="form-label"><i class="bi bi-brightness-high text-secondary"></i> Telescopio:</label>
+                <select asp-for="TelescopioId" class="form-control selector-equipo">
+                    <option value="">-- Seleccione un telescopio --</option>
+                    @foreach (var equipo in ViewBag.Equipos)
+                    {
+                        @if (equipo.TipoEquipo == "Telescopio")
+                        {
+                            <option value="@equipo.Id">@equipo.Marca - @equipo.Modelo - Peso: @equipo.Peso kg</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="TelescopioId" class="text-danger"></span>
+                <small class="mensaje-disponibilidad text-danger"></small>
+            </div>
+            <div class="form-group">
+                <label asp-for="MonturaId" class="form-label"><i class="bi bi-compass text-secondary"></i> Montura:</label>
+                <select asp-for="MonturaId" class="form-control selector-equipo">
+                    <option value="">-- Seleccione una montura --</option>
+                    @foreach (var equipo in ViewBag.Equipos)
+                    {
+                        @if (equipo.TipoEquipo == "Montura")
+                        {
+                            <option value="@equipo.Id">@equipo.Marca - @equipo.Modelo - Carga máxima soportada: @equipo.CargaMax kg</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="MonturaId" class="text-danger"></span>
+                <small class="mensaje-disponibilidad text-danger"></small>
+            </div>
+            <div class="form-group">
+                <label asp-for="CamaraId" class="form-label"><i class="bi bi-camera text-secondary"></i> Cámara:</label>
+                <select asp-for="CamaraId" class="form-control selector-equipo">
+                    <option value="">-- Seleccione una cámara --</option>
+                    @foreach (var equipo in ViewBag.Equipos)
+                    {
+                        @if (equipo.TipoEquipo == "Camara")
+                        {
+                            <option value="@equipo.Id">@equipo.Marca - @equipo.Modelo</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="CamaraId" class="text-danger"></span>
+                <small class="mensaje-disponibilidad text-danger"></small>
+            </div>
+            <div class="form-group">
+                <label asp-for="OcularId" class="form-label"><i class="bi bi-circle text-secondary"></i> Ocular:</label>
+                <select asp-for="OcularId" class="form-control selector-equipo">
+                    <option value="">-- Seleccione un ocular --</option>
+                    @foreach (var equipo in ViewBag.Equipos)
+                    {
+                        @if (equipo.TipoEquipo == "Ocular")
+                        {
+                            <option value="@equipo.Id">@equipo.Marca - @equipo.Modelo </option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="OcularId" class="text-danger"></span>
+                <small class="mensaje-disponibilidad text-danger"></small>
+            </div>
+            <div class="mt-4">
+                <a asp-controller="Prestamo" asp-action="Index" class="btn btn-secondary">Volver</a>
+                <button type="submit" id="btnGuardar" class="btn btn-primary"><i class="bi bi-check-lg"></i> Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+
+            const selectores = document.querySelectorAll(".selector-equipo");
+            const btnGuardar = document.getElementById("btnGuardar");
+            selectores.forEach(selector => {
+
+                selector.addEventListener("change", async function () {
+
+                    const equipoId = this.value;
+                    const mensaje = this.parentElement.querySelector(".mensaje-disponibilidad");
+
+                    mensaje.textContent = "";
+
+                    if (!equipoId) {
+                        return;
+                    }
+
+                    try {
+                        const response = await fetch(`http://ObligatorioAPI.somee.com/api/Equipo/disponibilidad/${equipoId}`);
+                        if (!response.ok) {
+                            throw new Error("Error al consultar disponibilidad");
+                        }
+                        const data = await response.json();
+                        if (!data.disponible) {
+                            mensaje.textContent = "Este equipo no tiene stock disponible.";
+                            this.value = "";
+                        }
+
+                    } catch (error) {
+
+                        console.error(error);
+                        mensaje.textContent = "No fue posible verificar la disponibilidad.";
+
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+}
+

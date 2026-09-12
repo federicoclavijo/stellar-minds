@@ -1,0 +1,94 @@
+@using WebApp.Enums
+@using LogicaNegocio.Enums
+@model WebApp.Models.UsuarioModel
+
+@{
+    ViewData["Title"] = "Alta de socio";
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (!String.IsNullOrWhiteSpace(ViewBag.Mensaje))
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}
+
+<div class="page-header">
+    <h1><span class="page-icon"><i class="bi bi-person-plus"></i></span> Alta de socio</h1>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Apellido" class="control-label"></label>
+                        <input asp-for="Apellido" class="form-control" />
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" class="form-control" />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" />
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="User" class="control-label"></label>
+                        <input asp-for="User" class="form-control" />
+                        <span asp-validation-for="User" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" asp-for="Rol" value="Socio"/>
+            <button type="submit" class="btn btn-primary mt-2"><i class="bi bi-check-lg"></i> Guardar</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
